@@ -1,0 +1,17 @@
+python -m venv .venv
+
+.venv\Scripts\activate
+
+pip install Django
+
+django-admin -> ve as opções que o django traz
+
+django-admin startproject nomedoprojeto -> cria uma pasta com o nome do projeto e uma subspasta com o mesm nome
+
+django-admin startproject nomedoprojeto . -> só cria uma pasta com o nome do projeto
+
+python manage.py migrate
+
+python manage.py startapp nomedoapp
+
+---------------------------
